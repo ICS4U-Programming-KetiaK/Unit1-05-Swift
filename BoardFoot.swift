@@ -46,7 +46,7 @@ do {
   if userWidthDouble != Double(userWidthString) {
     try catchString()
   }
-  
+
   if userWidthDouble > 0 && userWidthDouble < 145 {
     // get height from user
     print("Enter the height (inches): ", terminator: "")
